@@ -1,0 +1,8 @@
+﻿cl : Command line warning D9035: option 'clr:pure' has been deprecated and will be removed in a future release
+  Game V3.cpp
+Game V3.cpp(9): error C2976: 'std::array': too few template arguments
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\utility(363): note: see declaration of 'std::array'
+Game V3.cpp(9): error C3699: '^': cannot use this indirection on type 'std::array'
+  Game V3.cpp(9): note: compiler replacing '^' with '*' to continue parsing
+Game V3.cpp(9): error C2664: 'int main(std::array *)': cannot convert argument 1 from 'int' to 'std::array *'
+  Game V3.cpp(9): note: Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
