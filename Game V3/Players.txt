@@ -1,0 +1,3 @@
+mina     500
+Nabil     500
+Gaber     300
